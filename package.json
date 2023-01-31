@@ -1,0 +1,37 @@
+{
+  "name": "neuralfoundry",
+  "version": "1.0.0",
+  "description": "Neural Foundry Tech Test (Node js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Subhamsidharth/IMDB_CLONE.git"
+  },
+  "keywords": [],
+  "author": "SUBHAM SIDHARTHA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subhamsidharth/IMDB_CLONE.git"
+  },
+  "homepage": "https://github.com/Subhamsidharth/IMDB_CLONE.git",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.2.2",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
